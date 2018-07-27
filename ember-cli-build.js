@@ -4,7 +4,19 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
-    // Add options here
+    guidemaker: {
+      source: '@ember-learn/cli-guides'
+    },
+
+    fingerprint: {
+      extensions: ['js', 'css', 'map']
+    },
+
+    'ember-bootstrap': {
+      'bootstrapVersion': 4,
+      'importBootstrapFont': false,
+      'importBootstrapCSS': true
+    },
   });
 
   // Use `app.import` to add additional libraries to the generated
