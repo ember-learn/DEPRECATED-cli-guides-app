@@ -20,13 +20,15 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
+* Clone the [Ember CLI Guides](https://github.com/ember-learn/cli-guides-source) Source repository
+* link the `ember-cli-guides-source` repository by running `npm link` inside that repo, then `npm link @ember-learn/cli-guides`
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
-### Code Generators
+### Adding more things to the table of contents
 
-Make use of the many generators for code, try `ember help generate` for more details
+See `pages.yaml` in the cli-guides-source. Whatever has a url of index will be what is shown for the top level path, like `/tutorial/`. There must be an index under each topic. 
 
 ### Running Tests
 
@@ -45,7 +47,10 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+- Deploy the guides-source using np, `npm run release`. Must have npm creds to do this.
+- `npm install @ember-learn/ember-cli-guides-source@latest`
+- commit and push to `master`
+
 
 ## Further Reading / Useful Links
 
