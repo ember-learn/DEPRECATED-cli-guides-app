@@ -17,7 +17,7 @@
     "test": "ember test"
   },
   "devDependencies": {
-    "@ember-learn/cli-guides": "0.0.2",
+    "@ember-learn/cli-guides": "0.0.3",
     "algoliasearch": "^3.29.0",
     "bootstrap": "^4.1.3",
     "broccoli-asset-rev": "^2.7.0",
