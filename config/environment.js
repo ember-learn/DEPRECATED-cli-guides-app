@@ -5,7 +5,8 @@ module.exports = function(environment) {
     modulePrefix: 'cli-guides-app',
     environment,
     rootURL: '/',
-    locationType: 'auto',
+    locationType: 'trailing-history',
+    historySupportMiddleware: true,
 
     EmberENV: {
       FEATURES: {
