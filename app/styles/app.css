@@ -5,4 +5,14 @@ code.bash.language-bash {
 
 code {
     color: black;
+    text-shadow: none;
+}
+
+code.language-hbs {
+    text-shadow: none;
+    color: white;
+}
+
+code.language-css {
+    text-shadow: none;
 }
