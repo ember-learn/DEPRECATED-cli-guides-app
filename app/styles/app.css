@@ -1,0 +1,18 @@
+code.bash.language-bash {
+    color: white;
+    text-shadow: none;
+}
+
+code {
+    color: black;
+    text-shadow: none;
+}
+
+code.language-hbs {
+    text-shadow: none;
+    color: white;
+}
+
+code.language-css {
+    text-shadow: none;
+}
