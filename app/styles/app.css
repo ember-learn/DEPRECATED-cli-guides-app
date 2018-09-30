@@ -2,3 +2,7 @@ code.bash.language-bash {
     color: white;
     text-shadow: none;
 }
+
+code {
+    color: black;
+}
