@@ -1,5 +1,7 @@
 # cli-guides-app
 
+[![Build Status](https://travis-ci.org/ember-learn/cli-guides-app.svg?branch=master)](https://travis-ci.org/ember-learn/cli-guides-app)
+
 This repository is part of a Work-In-Progress project to refresh the CLI guides content that currently lives at [https://ember-cli.com](ember-cli.com). The CLI Guides App is the structure for the [cli-guides-source](https://github.com/ember-learn/cli-guides-source) markdown files.
 
 As this project is pre-1.0, no content should be taken as the final word. Additional review is still pending.
@@ -35,7 +37,7 @@ To see what a local copy of the Guides markdown looks like:
 
 ### Adding more things to the table of contents
 
-See `pages.yaml` in the cli-guides-source. Whatever has a url of index will be what is shown for the top level path, like `/tutorial/`. There must be an `index.md` under each topic. 
+See `pages.yaml` in the cli-guides-source. Whatever has a url of index will be what is shown for the top level path, like `/tutorial/`. There must be an `index.md` under each topic.
 
 ### Running Tests
 
