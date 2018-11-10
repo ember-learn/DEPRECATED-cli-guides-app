@@ -1,4 +1,8 @@
-# cli-guides-app
+# DEPRECATED cli-guides-app
+
+This repository has been combined with the markdown source repository, and is deprecated. Please visit [cli-guides](https://github.com/ember-learn/cli-guides) to contribute to the project. Thank you :)
+
+----------
 
 [![Build Status](https://travis-ci.org/ember-learn/cli-guides-app.svg?branch=master)](https://travis-ci.org/ember-learn/cli-guides-app)
 
